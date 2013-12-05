@@ -37,6 +37,13 @@ $messages['es'] = array(
 	'yotporeviews-desc' => 'Añade la etiqueta <code>&lt;yotpo-reviews&gt;</code> que incrusta el sistema de reseñas Yotpo',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'yotporeviews-desc' => 'Ajoute la balise <code>&lt;yotpo-reviews&gt;</code> qui insère le système de relecture Yotpo',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -49,6 +56,13 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'yotporeviews-desc' => 'Yotpo レビュー システムを挿入する <code>&lt;yotpo-reviews&gt;</code> タグを追加する',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'yotporeviews-desc' => 'Ја става ознаката <code>&lt;yotpo-reviews&gt;</code> што го вградува системот за надгледување Yotpo',
 );
 
 /** Russian (русский)
