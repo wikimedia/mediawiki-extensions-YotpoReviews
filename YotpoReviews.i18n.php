@@ -65,6 +65,13 @@ $messages['mk'] = array(
 	'yotporeviews-desc' => 'Ја става ознаката <code>&lt;yotpo-reviews&gt;</code> што го вградува системот за надгледување Yotpo',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'yotporeviews-desc' => 'Voegt het label <code>&lt;yotpo-reviews&gt;</code> toe dat het beoordelingssysteem van Yotpo toevoegt',
+);
+
 /** Russian (русский)
  * @author Okras
  */
