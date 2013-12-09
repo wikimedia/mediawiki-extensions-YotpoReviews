@@ -79,6 +79,13 @@ $messages['ru'] = array(
 	'yotporeviews-desc' => 'Добавляет тег <code>&lt;yotpo-reviews&gt;</code>, который вставляет систему обзоров Yotpo',
 );
 
+/** Swedish (svenska)
+ * @author Jopparn
+ */
+$messages['sv'] = array(
+	'yotporeviews-desc' => 'Lägger till <code>&lt;yotpo-reviews&gt;</code>-taggen som infogar Yotpo-granskningssystem',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
