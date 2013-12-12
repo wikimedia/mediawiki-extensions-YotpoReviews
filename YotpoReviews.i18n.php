@@ -86,6 +86,13 @@ $messages['sv'] = array(
 	'yotporeviews-desc' => 'Lägger till <code>&lt;yotpo-reviews&gt;</code>-taggen som infogar Yotpo-granskningssystem',
 );
 
+/** Turkish (Türkçe)
+ * @author Joseph
+ */
+$messages['tr'] = array(
+	'yotporeviews-desc' => 'Yotpo gözden geçirme sistemini ekleyen <code>&lt;yotpo-reviews&gt;</code> etiketini ekler',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
