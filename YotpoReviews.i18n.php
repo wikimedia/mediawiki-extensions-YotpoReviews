@@ -22,6 +22,13 @@ $messages['qqq'] = array(
 	'yotporeviews-desc' => '{{desc|name=YotpoReviews|url=https://www.mediawiki.org/wiki/Extension:YotpoReviews}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'yotporeviews-desc' => "Amiesta la etiqueta <code>&lt;yotpo-reviews&gt;</code> qu'inxerta'l sistema de revisiones Yotpo",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
