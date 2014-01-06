@@ -31,9 +31,10 @@ $messages['ast'] = array(
 
 /** German (Deutsch)
  * @author Metalhead64
+ * @author Purodha
  */
 $messages['de'] = array(
-	'yotporeviews-desc' => 'Ergänzt das <code>&lt;yotpo-reviews&gt;</code>-Tag zum Einfügen des Yotpo-Überprüfungssystems',
+	'yotporeviews-desc' => 'Bringt das <code>&lt;yotpo-reviews&gt;</code>-Tag zum Einfügen des Yotpo-Überprüfungssystems ins Wiki',
 );
 
 /** Spanish (español)
@@ -63,6 +64,13 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'yotporeviews-desc' => 'Yotpo レビュー システムを挿入する <code>&lt;yotpo-reviews&gt;</code> タグを追加する',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'yotporeviews-desc' => 'Brängk dä Befähl <code>&lt;yotpo-reviews&gt;</code>, woh met dat Yotpo-Süßtehm för et Nohloore enjeföösch weed.',
 );
 
 /** Macedonian (македонски)
