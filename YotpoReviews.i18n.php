@@ -66,6 +66,13 @@ $messages['ja'] = array(
 	'yotporeviews-desc' => 'Yotpo レビュー システムを挿入する <code>&lt;yotpo-reviews&gt;</code> タグを追加する',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'yotporeviews-desc' => 'Yotpo 보고 시스템을 삽입한 <code>&lt;yotpo-reviews&gt;</code> 태그를 추가',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
