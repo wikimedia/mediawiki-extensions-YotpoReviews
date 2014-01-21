@@ -15,7 +15,7 @@ class YotpoReviews {
 	}
 
 	public static function renderReviews( $input, array $args, Parser $parser, PPFrame $frame ) {
-		global $wgTitle, $wgLogo, $wgServer, $wgYotpoAppKey;
+		global $wgLogo, $wgServer, $wgYotpoAppKey;
 
 		$width = '100%'; //Default
 		if ( array_key_exists( 'width', $args ) ) {
@@ -41,12 +41,14 @@ class YotpoReviews {
 			$margin = '0 auto 0 auto';
 		}
 
+		$title = $parser->getTitle();
+
 		$data_app_key = $wgYotpoAppKey;
 		$data_domain = $wgServer;
-		$data_product_id = $wgTitle->getDBKey();
+		$data_product_id = $title->getDBKey();
 		$data_product_models = '';
-		$data_name = $wgTitle->getText();
-		$data_url = $wgTitle->getFullURL();
+		$data_name = $title->getText();
+		$data_url = $title->getFullURL();
 		$data_image_url = '';
 		$data_description = '';
 		$data_bread_crumbs = '';
