@@ -52,6 +52,13 @@ $messages['fr'] = array(
 	'yotporeviews-desc' => 'Ajoute la balise <code>&lt;yotpo-reviews&gt;</code> qui insère le système de relecture Yotpo',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'yotporeviews-desc' => 'Engade a etiqueta <code>&lt;yotpo-reviews&gt;</code> que insire o sistema de revisión Yotpo',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
