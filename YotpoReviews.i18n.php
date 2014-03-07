@@ -45,6 +45,13 @@ $messages['es'] = array(
 	'yotporeviews-desc' => 'Añade la etiqueta <code>&lt;yotpo-reviews&gt;</code> que incrusta el sistema de reseñas Yotpo',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'yotporeviews-desc' => 'افزودن برچسب <code>&lt;yotpo-reviews&gt;</code> که سیستم بازبینی‌های یوت‌پو را درج می‌کند',
+);
+
 /** French (français)
  * @author Gomoko
  */
