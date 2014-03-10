@@ -66,6 +66,20 @@ $messages['gl'] = array(
 	'yotporeviews-desc' => 'Engade a etiqueta <code>&lt;yotpo-reviews&gt;</code> que insire o sistema de revisión Yotpo',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'yotporeviews-desc' => 'מוסיף תג <code>&lt;yotpo-reviews&gt;</code> שמוסיף את מערכת הביקורת של Yotpo',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'yotporeviews-desc' => 'Přidawa element <cod>&lt;yotpo-reviews&gt;</code>, kotryž přepruwowanski system Yotpo zasadza',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
