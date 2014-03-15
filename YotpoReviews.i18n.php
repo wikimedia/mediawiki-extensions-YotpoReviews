@@ -122,6 +122,13 @@ $messages['nl'] = array(
 	'yotporeviews-desc' => 'Voegt het label <code>&lt;yotpo-reviews&gt;</code> toe dat het beoordelingssysteem van Yotpo toevoegt',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'yotporeviews-desc' => "Apond la balisa <code>&lt;yotpo-reviews&gt;</code> qu'inserís lo sistèma de relectura Yotpo",
+);
+
 /** Russian (русский)
  * @author Okras
  */
