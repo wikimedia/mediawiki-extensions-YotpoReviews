@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Okras"
+        ]
+    },
+    "yotporeviews-desc": "Добавляет тег <code>&lt;yotpo-reviews&gt;</code>, который вставляет систему обзоров Yotpo"
+}
