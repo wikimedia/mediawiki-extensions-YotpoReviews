@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64",
-            "Purodha"
-        ]
-    },
-    "yotporeviews-desc": "Bringt das <code>&lt;yotpo-reviews&gt;</code>-Tag zum Einfügen des Yotpo-Überprüfungssystems ins Wiki"
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"yotporeviews-desc": "Bringt das <code>&lt;yotpo-reviews&gt;</code>-Tag zum Einfügen des Yotpo-Überprüfungssystems ins Wiki"
 }

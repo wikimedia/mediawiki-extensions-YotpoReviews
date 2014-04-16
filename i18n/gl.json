@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "yotporeviews-desc": "Engade a etiqueta <code>&lt;yotpo-reviews&gt;</code> que insire o sistema de revisión Yotpo"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"yotporeviews-desc": "Engade a etiqueta <code>&lt;yotpo-reviews&gt;</code> que insire o sistema de revisión Yotpo"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "yotporeviews-desc": "Ajoute la balise <code>&lt;yotpo-reviews&gt;</code> qui insère le système de relecture Yotpo"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"yotporeviews-desc": "Ajoute la balise <code>&lt;yotpo-reviews&gt;</code> qui insère le système de relecture Yotpo"
 }

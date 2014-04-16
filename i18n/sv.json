@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jopparn"
-        ]
-    },
-    "yotporeviews-desc": "Lägger till <code>&lt;yotpo-reviews&gt;</code>-taggen som infogar Yotpo-granskningssystem"
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"yotporeviews-desc": "Lägger till <code>&lt;yotpo-reviews&gt;</code>-taggen som infogar Yotpo-granskningssystem"
 }
