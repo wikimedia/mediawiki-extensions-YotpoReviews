@@ -14,7 +14,6 @@ class YotpoReviews {
 	}
 
 	public static function renderReviews( $input, array $args, Parser $parser, PPFrame $frame ) {
-		global $wgTitle, $wgLogo, $wgServer, $wgYotpoAppKey;
 
 		$width = '100%'; //Default
 		if ( array_key_exists( 'width', $args ) ) {
@@ -45,9 +44,10 @@ class YotpoReviews {
 			$float = $args['float'];
 		}
 
-		$data_product_id = $wgTitle->getDBKey();
-		$data_name = $wgTitle->getText();
-		$data_url = $wgTitle->getFullURL();
+		$title = $parser->getTitle();
+		$data_product_id = $title->getDBKey();
+		$data_name = $title->getText();
+		$data_url = $title->getFullURL();
 		$data_image_url = '';
 		$data_description = '';
 
