@@ -5,5 +5,6 @@
 			"Purodha"
 		]
 	},
-	"yotporeviews-desc": "Bringt das <code>&lt;yotpo-reviews&gt;</code>-Tag zum Einfügen des Yotpo-Überprüfungssystems ins Wiki"
+	"yotporeviews-name": "YotpoReviews",
+	"yotporeviews-desc": "Bringt das <code>&lt;yotporeviews&gt;</code>-Tag zum Einfügen des Yotpo-Überprüfungssystems ins Wiki"
 }
