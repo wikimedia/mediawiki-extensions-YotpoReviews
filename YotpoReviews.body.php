@@ -2,44 +2,45 @@
 
 class YotpoReviews {
 
-	public static function setParserHook( $parser ) {
-		$parser->setHook( 'yotpo-reviews', 'YotpoReviews::renderReviews' );
+	public static function onParserFirstCallInit( Parser &$parser ) {
+		$parser->setHook( 'yotporeviews', 'YotpoReviews::render' );
+		$parser->setHook( 'yotpo-reviews', 'YotpoReviews::render' ); // Backwards compatibility
 		return true;
 	}
 
-	public static function addYotpoScript( &$data ) {
+	public static function onSkinAfterContent( &$data, Skin $skin ) {
 		global $wgYotpoAppKey;
 		$data .= '<script type="text/javascript">(function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/' . $wgYotpoAppKey . '/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();</script>';
 		return true;
 	}
 
-	public static function renderReviews( $input, array $args, Parser $parser, PPFrame $frame ) {
+	public static function render( $input, array $args, Parser $parser, PPFrame $frame ) {
 
-		$width = '100%'; //Default
+		$width = '100%'; // Default
 		if ( array_key_exists( 'width', $args ) ) {
 			$width = $args['width'] . 'px';
 		}
 
-		$height = '100%'; //Default
+		$height = '100%'; // Default
 		if ( array_key_exists( 'height', $args ) ) {
 			$height = $args['height'] . 'px';
 		}
 
-		$align = 'center'; //Default
+		$align = 'center'; // Default
 		if ( array_key_exists( 'align', $args ) ) {
 			$align = $args['align'];
 		}
-		if ( $align == 'left' ) {
+		if ( $align === 'left' ) {
 			$margin = '0 auto 0 0';
 		}
-		if ( $align == 'right' ) {
+		if ( $align === 'right' ) {
 			$margin = '0 0 0 auto';
 		}
-		if ( $align == 'center' ) {
+		if ( $align === 'center' ) {
 			$margin = '0 auto 0 auto';
 		}
 
-		$float = 'none'; //Default
+		$float = 'none'; // Default
 		if ( array_key_exists( 'float', $args ) ) {
 			$float = $args['float'];
 		}

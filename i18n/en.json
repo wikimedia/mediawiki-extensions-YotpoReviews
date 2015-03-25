@@ -4,5 +4,6 @@
             "Luis Felipe Schenone"
         ]
     },
-    "yotporeviews-desc": "Adds the <code>&lt;yotpo-reviews&gt;</code> tag that inserts the Yotpo reviews system"
+    "yotporeviews-name": "YotpoReviews",
+    "yotporeviews-desc": "Adds the <code>&lt;yotporeviews&gt;</code> tag that inserts the Yotpo reviews system"
 }
