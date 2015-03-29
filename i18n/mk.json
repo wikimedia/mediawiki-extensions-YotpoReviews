@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Ја става ознаката <code>&lt;yotpo-reviews&gt;</code> што го вградува системот за надгледување Yotpo"
+	"yotporeviews-name": "YotpoReviews",
+	"yotporeviews-desc": "Ја става ознаката <code>&lt;yotporeviews&gt;</code> што го вградува системот за надгледување Yotpo"
 }

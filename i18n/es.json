@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Luis Felipe Schenone"
+			"Luis Felipe Schenone",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Añade la etiqueta <code>&lt;yotpo-reviews&gt;</code> que incrusta el sistema de reseñas Yotpo"
+	"yotporeviews-name": "Revisiones Yotpo",
+	"yotporeviews-desc": "Añade la etiqueta <code>&lt;yotporeviews&gt;</code> que incrusta el sistema de reseñas Yotpo"
 }

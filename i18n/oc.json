@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Apond la balisa <code>&lt;yotpo-reviews&gt;</code> qu'inserís lo sistèma de relectura Yotpo"
+	"yotporeviews-desc": "Apond la balisa <code>&lt;yotporeviews&gt;</code> qu'inserís lo sistèma de relectura Yotpo"
 }

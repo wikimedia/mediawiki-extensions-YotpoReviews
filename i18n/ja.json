@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Yotpo レビュー システムを挿入する <code>&lt;yotpo-reviews&gt;</code> タグを追加する"
+	"yotporeviews-desc": "Yotpo レビュー システムを挿入する <code>&lt;yotporeviews&gt;</code> タグを追加する"
 }

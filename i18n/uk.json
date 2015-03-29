@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Додає теґ <code>&lt;yotpo-reviews&gt;</code>, який вставляє систему відгуків Yotpo"
+	"yotporeviews-desc": "Додає теґ <code>&lt;yotporeviews&gt;</code>, який вставляє систему відгуків Yotpo"
 }

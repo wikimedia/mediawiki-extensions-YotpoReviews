@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michawiki"
+			"Michawiki",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Přidawa element <cod>&lt;yotpo-reviews&gt;</code>, kotryž přepruwowanski system Yotpo zasadza"
+	"yotporeviews-desc": "Přidawa element <cod>&lt;yotporeviews&gt;</code>, kotryž přepruwowanski system Yotpo zasadza"
 }

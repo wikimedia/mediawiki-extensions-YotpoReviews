@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Voegt het label <code>&lt;yotpo-reviews&gt;</code> toe dat het beoordelingssysteem van Yotpo toevoegt"
+	"yotporeviews-desc": "Voegt het label <code>&lt;yotporeviews&gt;</code> toe dat het beoordelingssysteem van Yotpo toevoegt"
 }

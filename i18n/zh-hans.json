@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "加入<code>&lt;yotpo-reviews&gt;</code>标签以插入Yotpo评论系统"
+	"yotporeviews-name": "YotpoReviews",
+	"yotporeviews-desc": "加入<code>&lt;yotporeviews&gt;</code>标签以插入Yotpo评论系统"
 }

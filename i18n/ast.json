@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Macofe"
 		]
 	},
-	"yotporeviews-desc": "Amiesta la etiqueta <code>&lt;yotpo-reviews&gt;</code> qu'inxerta'l sistema de revisiones Yotpo"
+	"yotporeviews-desc": "Amiesta la etiqueta <code>&lt;yotporeviews&gt;</code> qu'inxerta'l sistema de revisiones Yotpo"
 }
