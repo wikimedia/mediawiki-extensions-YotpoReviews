@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
-			"Macofe"
+			"Macofe",
+			"Alex Khimich"
 		]
 	},
+	"yotporeviews-name": "YotpoПерегляди",
 	"yotporeviews-desc": "Додає теґ <code>&lt;yotporeviews&gt;</code>, який вставляє систему відгуків Yotpo"
 }
