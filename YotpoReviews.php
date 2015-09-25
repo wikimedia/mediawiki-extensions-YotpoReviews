@@ -3,7 +3,7 @@
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'YotpoReviews',
-	'namemsg'        => 'yotporeviews-name',
+	'namemsg'        => 'yotporeviews-extensionname',
 	'description'    => 'Adds the <code>&lt;yotporeviews&gt;</code> tag that inserts the Yotpo reviews system',
 	'descriptionmsg' => 'yotporeviews-desc',
 	'version'        => '0.3',

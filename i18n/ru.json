@@ -5,6 +5,6 @@
 			"Macofe"
 		]
 	},
-	"yotporeviews-name": "YotpoReviews",
+	"yotporeviews-extensionname": "YotpoReviews",
 	"yotporeviews-desc": "Добавляет тег <code>&lt;yotporeviews&gt;</code>, который вставляет систему обзоров Yotpo"
 }

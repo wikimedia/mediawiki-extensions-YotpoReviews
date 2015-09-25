@@ -6,6 +6,6 @@
 			"Alex Khimich"
 		]
 	},
-	"yotporeviews-name": "YotpoПерегляди",
+	"yotporeviews-extensionname": "YotpoПерегляди",
 	"yotporeviews-desc": "Додає теґ <code>&lt;yotporeviews&gt;</code>, який вставляє систему відгуків Yotpo"
 }

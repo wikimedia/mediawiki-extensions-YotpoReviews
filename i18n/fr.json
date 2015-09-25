@@ -6,6 +6,6 @@
 			"Wladek92"
 		]
 	},
-	"yotporeviews-name": "Revues de Yotpo",
+	"yotporeviews-extensionname": "Revues de Yotpo",
 	"yotporeviews-desc": "Ajoute la balise <code>&lt;yotporeviews&gt;</code> qui insère le système de relecture Yotpo"
 }
