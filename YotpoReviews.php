@@ -12,7 +12,6 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $wgMessagesDirs['YotpoReviews'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['YotpoReviews'] = __DIR__ . '/YotpoReviews.i18n.php';
 $wgAutoloadClasses['YotpoReviews'] = __DIR__ . '/YotpoReviews.body.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'YotpoReviews::onParserFirstCallInit';
