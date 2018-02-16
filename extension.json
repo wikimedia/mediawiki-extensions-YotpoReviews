@@ -3,7 +3,7 @@
 	"namemsg": "yotporeviews-extensionname",
 	"version": "0.3",
 	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
-	"url": "http://www.mediawiki.org/wiki/Extension:YotpoReviews",
+	"url": "https://www.mediawiki.org/wiki/Extension:YotpoReviews",
 	"descriptionmsg": "yotporeviews-desc",
 	"license-name": "GPL-3.0",
 	"type": "parserhook",
