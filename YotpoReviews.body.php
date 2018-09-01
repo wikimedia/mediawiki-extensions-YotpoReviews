@@ -18,12 +18,12 @@ class YotpoReviews {
 
 		$width = '100%'; // Default
 		if ( array_key_exists( 'width', $args ) ) {
-			$width = $args['width'] . 'px';
+			$width = (int)$args['width'] . 'px';
 		}
 
 		$height = '100%'; // Default
 		if ( array_key_exists( 'height', $args ) ) {
-			$height = $args['height'] . 'px';
+			$height = (int)$args['height'] . 'px';
 		}
 
 		$align = 'center'; // Default
@@ -41,7 +41,7 @@ class YotpoReviews {
 		}
 
 		$float = 'none'; // Default
-		if ( array_key_exists( 'float', $args ) ) {
+		if ( array_key_exists( 'float', $args ) && preg_match( '/^[a-zA-Z]+$/', $args['float'] ) ) {
 			$float = $args['float'];
 		}
 
@@ -52,6 +52,18 @@ class YotpoReviews {
 		$data_image_url = '';
 		$data_description = '';
 
-		return '<div style="float:' . $float . '; margin:' . $margin . '; width:' . $width . '; height:' . $height . ';" class="yotpo yotpo-main-widget" data-product-id="' . $data_product_id . '" data-name="' . $data_name . '" data-url="' . $data_url . '" data-image-url="' . $data_image_url . '" data-description="' . $data_description . '"></div>';
+		return Html::element(
+			'div',
+			[
+				'style' => 'float:' . $float . '; margin:' . $margin . '; width:' . $width . '; height:' .     $height . ';',
+				'class' => "yotpo yotpo-main-widget",
+				'data-product-id' => $data_product_id,
+				'data-name' => $data_name,
+				'data-url' => $data_url,
+				'data-image-url' => $data_image_url,
+				'data-description' => $data_description
+			],
+			''
+		);
 	}
 }
