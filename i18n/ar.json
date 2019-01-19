@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
+	"yotporeviews-extensionname": "مراجعات يوتبو",
 	"yotporeviews-desc": "يضيف الوسم <code>&lt;yotporeviews&gt;</code> الذي يدرج نظام المراجعات Yotpo"
 }
