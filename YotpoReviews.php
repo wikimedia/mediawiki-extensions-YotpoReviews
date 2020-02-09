@@ -15,7 +15,6 @@ class YotpoReviews {
 	}
 
 	public static function render( $input, array $args, Parser $parser, PPFrame $frame ) {
-
 		$width = '100%'; // Default
 		if ( array_key_exists( 'width', $args ) ) {
 			$width = (int)$args['width'] . 'px';
@@ -55,7 +54,7 @@ class YotpoReviews {
 		return Html::element(
 			'div',
 			[
-				'style' => 'float:' . $float . '; margin:' . $margin . '; width:' . $width . '; height:' .     $height . ';',
+				'style' => 'float:' . $float . '; margin:' . $margin . '; width:' . $width . '; height:' . $height . ';',
 				'class' => "yotpo yotpo-main-widget",
 				'data-product-id' => $data_product_id,
 				'data-name' => $data_name,
