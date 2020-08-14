@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Joseph",
-			"Macofe"
+			"Macofe",
+			"MuratTheTurkish"
 		]
 	},
-	"yotporeviews-desc": "Yotpo gözden geçirme sistemini ekleyen <code>&lt;yotporeviews&gt;</code> etiketini ekler"
+	"yotporeviews-desc": "Yotpo inceleme sistemini ekleyen <code>&lt;yotporeviews&gt;</code> etiketini ekler"
 }
