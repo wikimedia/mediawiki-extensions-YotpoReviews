@@ -1,4 +1,5 @@
 {
+	"name": "YotpoReviews",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
