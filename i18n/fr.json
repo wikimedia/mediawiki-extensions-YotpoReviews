@@ -3,9 +3,10 @@
 		"authors": [
 			"Gomoko",
 			"Macofe",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"yotporeviews-extensionname": "Revues de Yotpo",
-	"yotporeviews-desc": "Ajoute la balise <code>&lt;yotporeviews&gt;</code> qui insère le système de relecture Yotpo"
+	"yotporeviews-desc": "Ajoute la balise <code>&lt;yotporeviews&gt;</code> qui insère le système de relecture Yotpo."
 }
