@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Html\Html;
+
 class YotpoReviews {
 
 	public static function onParserFirstCallInit( Parser &$parser ) {
