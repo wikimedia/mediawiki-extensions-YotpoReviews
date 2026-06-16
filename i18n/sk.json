@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"yotporeviews-extensionname": "YotpoReviews",
+	"yotporeviews-desc": "Pridáva značku <code>&lt;yotporeviews&gt;</code>, ktorá vkladá systém recenzií Yotpo"
+}
